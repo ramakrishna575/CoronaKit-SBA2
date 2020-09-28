@@ -10,7 +10,7 @@
 	</c:if>
 	 <c:choose>  
         <c:when test="${productlist == null || productlist.isEmpty() }">  
-            <p class="well">No Products Available to display</p>  
+            <p class="well">No Products Available To Display</p>  
         </c:when>  
         <c:otherwise>  
             <table class="table table-striped table-hover">  
